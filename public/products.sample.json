@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "products": [
+    {
+      "id": "sample-rice",
+      "name": "鮭おにぎり",
+      "brand": "形式確認用・実商品ではありません",
+      "category": "おにぎり",
+      "serving": {"amount": 1, "unit": "個"},
+      "nutrition": {"calories": 180, "protein": 4.5, "fat": 2, "carbs": 35, "salt": 0.9},
+      "imageUrl": null,
+      "sourceUrl": null,
+      "updatedAt": "2026-10-29",
+      "quality": "sample"
+    }
+  ]
+}

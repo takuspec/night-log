@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "source": "apple-health-shortcuts",
+  "records": [
+    {"type":"steps","startAt":"2026-10-28T09:00:00+09:00","endAt":"2026-10-29T09:00:00+09:00","value":4250,"unit":"count"},
+    {"type":"body","at":"2026-10-29T08:00:00+09:00","weight":70.5,"bodyFat":20},
+    {"type":"sleep","startAt":"2026-10-29T10:00:00+09:00","endAt":"2026-10-29T17:00:00+09:00","stages":"形式確認用のサンプル"}
+  ]
+}
