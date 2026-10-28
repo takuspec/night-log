@@ -15,8 +15,16 @@
    "name": "ローソン",
    "file": "stores/lawson.json",
    "updatedAt": "2026-10-29",
-   "count": 527,
-   "active": 527
+   "count": 1046,
+   "active": 1046
+  },
+  {
+   "id": "mext",
+   "name": "一般食品（食品成分表）",
+   "file": "stores/mext.json",
+   "updatedAt": "2026-03-27",
+   "count": 2538,
+   "active": 2538
   }
  ],
  "updatedAt": "2026-10-29"

@@ -68,3 +68,13 @@ label.check{display:flex;align-items:center;gap:8px;margin:4px 0 8px}label.check
  .mobile-cart-bar.flash{animation:cart-bump .3s}
  main:has(.mobile-cart-bar){padding-bottom:calc(160px + env(safe-area-inset-bottom))}
 }
+
+/* 組み合わせの提案・GPTのJSON登録・よく食べる商品（v0.4） */
+.badge.standard{background:#fdf1dc;color:#9a6a1f}.badge.mine{background:#f3ecf6;color:#7a5a86}
+.combo h3{margin:0}.combo .section-heading strong{font-size:18px}
+.combo-items{list-style:none;padding:0;margin:8px 0}.combo-items li{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px dashed #edf0e6}
+.combo-items li>span:nth-child(2){flex:1;min-width:0}.combo-items strong{display:block;font-size:13px;overflow-wrap:anywhere}.combo-items small{font-size:11px;color:#7b8879}
+.frequent{margin:4px 0 12px}.frequent h3{margin:6px 0}.frequent button{width:100%;justify-content:flex-start;gap:10px;margin:0 0 6px;font-weight:500;text-align:left}
+.frequent button span{flex:1;min-width:0}.frequent button small{display:block;font-size:11px;color:#7b8879}
+.prompt-text{white-space:pre-wrap;font-size:11px;background:#f7f8f2;padding:10px;border-radius:8px;overflow-wrap:anywhere}
+.text-button{display:inline-flex;margin-bottom:12px}

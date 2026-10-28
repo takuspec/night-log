@@ -130,7 +130,13 @@ async function collectLawson() {
     const list = await get(listUrl);
     if (!list) { console.warn('  ページなし', listUrl); continue; }
     sources.push(listUrl);
-    const links = [...new Set([...list.matchAll(/href="(\/recommend\/original\/detail\/(\d+)_\d+\.html)"/g)].map(m => m[1]))];
+    // ローソンセレクトなどはサブカテゴリのページ（/select/egg/ など）にも商品が並んでいるので、1階層だけたどる
+    const pages = [list];
+    for (const sub of new Set([...list.matchAll(new RegExp(`href="(/recommend/original/${slug}/[a-z_]+/)(?:index\\.html)?"`, 'g'))].map(m => m[1]))) {
+      const html = await get('https://www.lawson.co.jp' + sub);
+      if (html) { pages.push(html); sources.push('https://www.lawson.co.jp' + sub); }
+    }
+    const links = [...new Set(pages.flatMap(page => [...page.matchAll(/href="(\/recommend\/original\/detail\/(\d+)_\d+\.html)"/g)].map(m => m[1])))];
     for (const path of links) {
       if (n++ >= limit) break;
       const code = path.match(/detail\/(\d+)_/)[1];

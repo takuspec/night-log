@@ -18,7 +18,7 @@ export function Products({ products, run, busy }: { products: Product[]; run: Ru
       <p className="muted">共通商品DBにない商品を、この端末に登録します。食事登録の検索に共通商品と一緒に表示されます。編集・削除しても、登録済みの食事の栄養値は変わりません。</p>
       {editing && <ProductForm key={editing === 'new' ? 'new' : editing.id} product={editing === 'new' ? null : editing} products={products} run={run} busy={busy} onDone={() => setEditing(null)} />}
       <label className="search"><Search size={18} /><input aria-label="個人商品を検索" placeholder="商品名・メーカー" value={q} onChange={e => setQ(e.target.value)} /></label>
-      {personal.map(p => <div className="record-row product-row" key={p.id}><div><strong>{p.name}</strong><small> {p.brand || 'メーカー未設定'} / {p.category} / {p.serving.amount}{p.serving.unit}{p.serving.grams ? `（${p.serving.grams}g）` : ''}あたり / {qualityLabels[p.quality]}</small><p className="muted">{nutrients.map(n => `${n.label} ${numberText(p.nutrition[n.key])}${p.nutrition[n.key] == null ? '' : n.unit}`).join(' · ')}</p></div><div className="product-actions"><button className="icon-button" aria-label={p.name + 'を編集'} disabled={busy} onClick={() => setEditing(p)}><Pencil size={16} /></button><button className="icon-button" aria-label={p.name + 'を削除'} disabled={busy} onClick={() => { if (confirm(`「${p.name}」を削除しますか？（登録済みの食事の記録は残ります）`)) run(() => db.products.delete(p.id), '個人商品を削除しました'); }}><Trash2 size={16} /></button></div></div>)}
+      {personal.map(p => <div className="record-row product-row" key={p.id}><div><strong>{p.name}</strong><small> {p.brand || 'メーカー未設定'} / {p.category} / {p.serving.amount}{p.serving.unit}{p.serving.grams ? `（${p.serving.grams}g）` : ''}あたり / {qualityLabels[p.quality]}{p.shops?.length ? ` / ${p.shops.join('・')}` : ''}</small><p className="muted">{nutrients.map(n => `${n.label} ${numberText(p.nutrition[n.key])}${p.nutrition[n.key] == null ? '' : n.unit}`).join(' · ')}</p></div><div className="product-actions"><button className="icon-button" aria-label={p.name + 'を編集'} disabled={busy} onClick={() => setEditing(p)}><Pencil size={16} /></button><button className="icon-button" aria-label={p.name + 'を削除'} disabled={busy} onClick={() => { if (confirm(`「${p.name}」を削除しますか？（登録済みの食事の記録は残ります）`)) run(() => db.products.delete(p.id), '個人商品を削除しました'); }}><Trash2 size={16} /></button></div></div>)}
       {!personal.length && <p className="empty">{q ? '該当する個人商品がありません。' : 'まだ個人商品はありません。'}</p>}
     </section>
   </>;
@@ -60,6 +60,7 @@ function ProductForm({ product, products, run, busy, onDone }: { product: Produc
         serving: { amount: Number(get('amount')), unit: get('unit'), grams: get('grams') ? Number(get('grams')) : null },
         nutrition: Object.fromEntries(nutrients.map(n => [n.key, get(n.key) === '' ? null : Number(get(n.key))])),
         quality: get('quality'), sourceUrl: get('sourceUrl') || null, updatedAt: jstInput().slice(0, 10),
+        shops: [...new Set(get('shops').split(/[,、・\s]+/).filter(Boolean))],
       });
       if (products.some(x => x.id !== next.id && x.origin === 'personal' && x.name === next.name && x.brand === next.brand) && !confirm('同じ名前・メーカーの個人商品があります。別の商品として保存しますか？')) return;
       await db.products.put(next);
@@ -77,6 +78,7 @@ function ProductForm({ product, products, run, busy, onDone }: { product: Produc
       <label>基準量の単位<input name="unit" list="serving-units" required maxLength={20} defaultValue={p?.serving.unit ?? '個'} /></label>
       <datalist id="serving-units">{['個', '食', '包装', '本', '枚', '杯', '皿', 'g', 'ml'].map(u => <option key={u}>{u}</option>)}</datalist>
       <label>基準量の重さ（g・任意。グラム入力に使います）<input name="grams" type="number" min="0.01" step="any" defaultValue={p?.serving.grams ?? ''} /></label>
+      <label>買った店（「、」区切り・提案に使います）<input name="shops" maxLength={200} defaultValue={p?.shops?.join('、') ?? ''} placeholder="ローソン、ファミリーマート" /></label>
       <label>栄養値の出典<select name="quality" defaultValue={p?.quality ?? 'label'}><option value="label">パッケージ表示値</option><option value="official">公式サイト</option><option value="estimated">推定値（自炊など）</option></select></label>
       {nutrients.map(n => <label key={n.key}>{n.label}（{n.unit}）<input name={n.key} type="number" min="0" step="any" defaultValue={p?.nutrition[n.key] ?? ''} /></label>)}
     </div>

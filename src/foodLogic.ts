@@ -24,7 +24,7 @@ const normalize = (s: string) => s.normalize('NFKC').toLowerCase()
   .replace(/lawson/g, 'ローソン');
 export function matchesProduct(p: Product, query: string, category = '') {
   const terms = normalize(query).trim().split(/\s+/).filter(Boolean);
-  const haystack = normalize(`${p.name} ${p.brand} ${p.category}`);
+  const haystack = normalize(`${p.name} ${p.brand} ${p.category} ${p.keywords ?? ''} ${(p.shops ?? []).join(' ')}`);
   return (!category || p.category === category) && terms.every(t => haystack.includes(t));
 }
 
@@ -95,4 +95,10 @@ export function dayItems(meals: Meal[], day: string, excludingId?: string) {
 }
 export function combineNutrition(meals: Meal[], day: string, cart: Meal['items'], excludingId?: string) {
   return totalNutrition([...dayItems(meals, day, excludingId), ...cart]);
+}
+
+// 商品をカートに入れるときの初期の分量（基準量の倍数）。目安量（ゆで卵1個=50g など）があればそれを使う
+export function defaultQuantity(p: Product) {
+  const grams = portionGrams(p);
+  return p.portion && grams ? p.portion.grams / grams : 1;
 }
