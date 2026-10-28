@@ -1,0 +1,5259 @@
+{
+ "schemaVersion": 1,
+ "store": "familymart",
+ "storeName": "ファミリーマート",
+ "updatedAt": "2026-10-29",
+ "sources": [
+  "https://www.family.co.jp/goods/safety/goods010.html",
+  "https://www.family.co.jp/goods/safety/goods020.html",
+  "https://www.family.co.jp/goods/safety/goods030.html",
+  "https://www.family.co.jp/goods/safety/goods040.html",
+  "https://www.family.co.jp/goods/safety/goods060.html",
+  "https://www.family.co.jp/goods/safety/goods070.html",
+  "https://www.family.co.jp/goods/safety/goods080.html",
+  "https://www.family.co.jp/goods/safety/goods090.html",
+  "https://www.family.co.jp/goods/safety/goods100.html",
+  "https://www.family.co.jp/goods/safety/friedfoods.html",
+  "https://www.family.co.jp/goods/safety/chukaman.html",
+  "https://www.family.co.jp/goods/safety/oden.html",
+  "https://www.family.co.jp/goods/safety/cafe.html"
+ ],
+ "products": [
+  {
+   "id": "familymart:0271288",
+   "name": "あらびきウインナー",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 94,
+    "protein": 3.2,
+    "fat": 8.1,
+    "carbs": 2.1,
+    "salt": 0.7,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0271288.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0271288.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0270861",
+   "name": "ごぼう巻",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 64,
+    "protein": 3.1,
+    "fat": 2.1,
+    "carbs": 8.6,
+    "salt": 1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0270861.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0270861.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0270595",
+   "name": "だし巻玉子",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 64,
+    "protein": 3.7,
+    "fat": 3.4,
+    "carbs": 4.7,
+    "salt": 0.5,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0270595.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0270595.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0270830",
+   "name": "はんぺん",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 31,
+    "protein": 3.4,
+    "fat": 0.06,
+    "carbs": 4.1,
+    "salt": 0.7,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0270830.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0270830.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東"
+  },
+  {
+   "id": "familymart:0271295",
+   "name": "牛すじ串",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 40,
+    "protein": 4.3,
+    "fat": 2.5,
+    "carbs": 0.1,
+    "salt": 0.2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0271295.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0271295.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0270144",
+   "name": "結び白滝",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 6,
+    "protein": 0,
+    "fat": 0.1,
+    "carbs": 2.1,
+    "salt": 0,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0270144.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0270144.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0270878",
+   "name": "厚切大根",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 6,
+    "protein": 0.5,
+    "fat": 0.08,
+    "carbs": 1.1,
+    "salt": 0.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0270878.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0270878.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0270571",
+   "name": "厚揚",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 82,
+    "protein": 6.2,
+    "fat": 5.3,
+    "carbs": 2.6,
+    "salt": 0.03,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0270571.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0270571.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0270106",
+   "name": "三角こんにゃく",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 4,
+    "protein": 0,
+    "fat": 0.2,
+    "carbs": 1.3,
+    "salt": 0.004,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0270106.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0270106.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0270717",
+   "name": "焼ちくわ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 43,
+    "protein": 3.6,
+    "fat": 0.7,
+    "carbs": 5.5,
+    "salt": 0.8,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0270717.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0270717.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0270540-646f5a54",
+   "name": "味噌たれ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 19,
+    "protein": 0.6,
+    "fat": 0.3,
+    "carbs": 3.5,
+    "salt": 0.4,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0270540.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東海"
+  },
+  {
+   "id": "familymart:0270670",
+   "name": "味付たまご",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 68,
+    "protein": 6.3,
+    "fat": 4.5,
+    "carbs": 0.6,
+    "salt": 0.7,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0270670.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0270670.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0270984",
+   "name": "餅入り巾着",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 94,
+    "protein": 3.8,
+    "fat": 3.7,
+    "carbs": 11.6,
+    "salt": 0.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0270984.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": "https://www.family.co.jp/goods/oden/0270984.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0273237-38d2a038",
+   "name": "柚子こしょう",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 0.74,
+    "protein": 0.008,
+    "fat": 0.005,
+    "carbs": 0.165,
+    "salt": 0.17,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0273237.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0273220-ddbba82d",
+   "name": "和からし",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おでん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 4.8,
+    "protein": 0.1,
+    "fat": 0.1,
+    "carbs": 0.8,
+    "salt": 0.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0273220.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/oden.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0411295",
+   "name": "焦がし醤油たれまぶし飯 国産海苔の佃煮おむすび",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "おむすび",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 179,
+    "protein": 3.4,
+    "fat": 1,
+    "carbs": 39.4,
+    "salt": 1.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0411295.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods010.html",
+   "productUrl": "https://www.family.co.jp/goods/omusubi/0411295.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0515238",
+   "name": "【関東・東海】いなり&おむすびセット",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お寿司",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 489,
+    "protein": 14.1,
+    "fat": 15.8,
+    "carbs": 74,
+    "salt": 3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0515238.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods030.html",
+   "productUrl": "https://www.family.co.jp/goods/sushi/0515238.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東・東海"
+  },
+  {
+   "id": "familymart:0515153",
+   "name": "いなり寿司3ヶ入",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お寿司",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 270,
+    "protein": 8.3,
+    "fat": 8,
+    "carbs": 41.7,
+    "salt": 1.8,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0515153.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods030.html",
+   "productUrl": "https://www.family.co.jp/goods/sushi/0515153.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州 / ※宮崎県、鹿児島県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0510349",
+   "name": "チーズハンバーグ寿司",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お寿司",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 274,
+    "protein": 8.8,
+    "fat": 7.5,
+    "carbs": 43.2,
+    "salt": 2.8,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0510349.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods030.html",
+   "productUrl": "https://www.family.co.jp/goods/sushi/0510349.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0515412",
+   "name": "ミニいなり寿司5ヶ入",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お寿司",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 305,
+    "protein": 9.3,
+    "fat": 7.3,
+    "carbs": 51,
+    "salt": 2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0515412.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods030.html",
+   "productUrl": "https://www.family.co.jp/goods/sushi/0515412.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・中国・四国・九州 / ※宮崎県、鹿児島県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0515085",
+   "name": "ミニ助六寿司",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お寿司",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 290,
+    "protein": 8.8,
+    "fat": 6.9,
+    "carbs": 48.8,
+    "salt": 2.2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0515085.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods030.html",
+   "productUrl": "https://www.family.co.jp/goods/sushi/0515085.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州 / ※地域に合わせて巻寿司の具材を変えています。※宮崎県、鹿児島県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0510219",
+   "name": "手巻寿司 青しそ納豆",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お寿司",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 174,
+    "protein": 5.5,
+    "fat": 2.1,
+    "carbs": 34.1,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0510219.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods030.html",
+   "productUrl": "https://www.family.co.jp/goods/sushi/0510219.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0515078",
+   "name": "助六寿司",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お寿司",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 477,
+    "protein": 13.7,
+    "fat": 10.2,
+    "carbs": 83.9,
+    "salt": 3.6,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0515078.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods030.html",
+   "productUrl": "https://www.family.co.jp/goods/sushi/0515078.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州 / ※地域に合わせて太巻寿司の具材を変えています。※宮崎県、鹿児島県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0510547",
+   "name": "生ハム寿司",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お寿司",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 225,
+    "protein": 5.4,
+    "fat": 4.8,
+    "carbs": 40.2,
+    "salt": 1.8,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0510547.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods030.html",
+   "productUrl": "https://www.family.co.jp/goods/sushi/0510547.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0616447",
+   "name": "【北海道・関東・東海】銀鮭幕の内弁当",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お弁当",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 436,
+    "protein": 14.7,
+    "fat": 11.6,
+    "carbs": 68.9,
+    "salt": 2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0616447.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods020.html",
+   "productUrl": "https://www.family.co.jp/goods/obento/0616447.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・関東・東海"
+  },
+  {
+   "id": "familymart:0614184",
+   "name": "リュウジの至高のレシピ 炙り豚生姜焼弁当",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お弁当",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 607,
+    "protein": 21.1,
+    "fat": 17.1,
+    "carbs": 93.1,
+    "salt": 4.5,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0614184.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods020.html",
+   "productUrl": "https://www.family.co.jp/goods/obento/0614184.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0730310",
+   "name": "三元豚のロースかつ丼",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お弁当",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 683,
+    "protein": 19.4,
+    "fat": 27.7,
+    "carbs": 90.4,
+    "salt": 3.5,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0730310.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods020.html",
+   "productUrl": "https://www.family.co.jp/goods/obento/0730310.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・九州・沖縄"
+  },
+  {
+   "id": "familymart:0730525",
+   "name": "鉄板焼ハンバーグ弁当（コク深デミソース）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "お弁当",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 771,
+    "protein": 23.4,
+    "fat": 32.1,
+    "carbs": 98.8,
+    "salt": 3.5,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0730525.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods020.html",
+   "productUrl": "https://www.family.co.jp/goods/obento/0730525.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0212922-0edfc4fb",
+   "name": "アイスカフェラテL コーヒーリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 92,
+    "protein": 4,
+    "fat": 4.5,
+    "carbs": 9,
+    "salt": 0.11,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212922.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212922-78593a42",
+   "name": "アイスカフェラテL ミルクリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 115,
+    "protein": 4.9,
+    "fat": 5.9,
+    "carbs": 10.7,
+    "salt": 0.15,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212922.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212922",
+   "name": "アイスカフェラテL レギュラー",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 107,
+    "protein": 4.4,
+    "fat": 5.3,
+    "carbs": 10.5,
+    "salt": 0.13,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212922.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212922.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212441-53605c8e",
+   "name": "アイスカフェラテLL コーヒーリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 107,
+    "protein": 4.8,
+    "fat": 5.5,
+    "carbs": 9.4,
+    "salt": 0.14,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212441.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212441-b5b4b325",
+   "name": "アイスカフェラテLL ミルクリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 122,
+    "protein": 5.5,
+    "fat": 6.4,
+    "carbs": 10.6,
+    "salt": 0.15,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212441.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212441",
+   "name": "アイスカフェラテLL レギュラー",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 118,
+    "protein": 5.3,
+    "fat": 6.1,
+    "carbs": 10.3,
+    "salt": 0.15,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212441.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212441.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212403-23720468",
+   "name": "アイスカフェラテＭ コーヒーリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 66,
+    "protein": 2.9,
+    "fat": 3.2,
+    "carbs": 6.5,
+    "salt": 0.09,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212403.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212403-f2deae43",
+   "name": "アイスカフェラテＭ ミルクリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 87,
+    "protein": 3.7,
+    "fat": 4.5,
+    "carbs": 8.1,
+    "salt": 0.12,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212403.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212403",
+   "name": "アイスカフェラテＭ レギュラー",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 80,
+    "protein": 3.4,
+    "fat": 4,
+    "carbs": 7.7,
+    "salt": 0.11,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212403.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212403.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212915",
+   "name": "アイスコーヒーL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 13.8,
+    "protein": 0.5,
+    "fat": 0,
+    "carbs": 2.8,
+    "salt": 0.03,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212915.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212915.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212915-298dc97b",
+   "name": "アイスコーヒーL 軽め",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 9.2,
+    "protein": 0.9,
+    "fat": 0,
+    "carbs": 1.4,
+    "salt": 0.03,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212915.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212915-0d4a4554",
+   "name": "アイスコーヒーL 濃いめ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 13.8,
+    "protein": 0.5,
+    "fat": 0,
+    "carbs": 3.7,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212915.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210850",
+   "name": "アイスコーヒーLL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 19,
+    "protein": 1,
+    "fat": 0,
+    "carbs": 3.4,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210850.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210850.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210850-c0835f8b",
+   "name": "アイスコーヒーLL 軽め",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 19,
+    "protein": 1,
+    "fat": 0,
+    "carbs": 3.4,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210850.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210850-f39dbf97",
+   "name": "アイスコーヒーLL 濃いめ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 19,
+    "protein": 1,
+    "fat": 0,
+    "carbs": 3.4,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210850.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212397",
+   "name": "アイスコーヒーM",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 9.6,
+    "protein": 0.3,
+    "fat": 0,
+    "carbs": 1.9,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212397.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212397.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212397-c1bb5b2e",
+   "name": "アイスコーヒーM 軽め",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 6.4,
+    "protein": 0.3,
+    "fat": 0,
+    "carbs": 1.6,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212397.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212397-3ca9a8b3",
+   "name": "アイスコーヒーM 濃いめ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 6.4,
+    "protein": 0.6,
+    "fat": 0,
+    "carbs": 1.3,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212397.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212380",
+   "name": "アイスコーヒーS",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 3.7,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 0.9,
+    "salt": 0.01,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212380.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212380.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212380-02b342e4",
+   "name": "アイスコーヒーS 軽め",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 2.8,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 0.7,
+    "salt": 0.01,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212380.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212380-debb2179",
+   "name": "アイスコーヒーS 濃いめ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 4.7,
+    "protein": 0.2,
+    "fat": 0,
+    "carbs": 1.1,
+    "salt": 0.01,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212380.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210409",
+   "name": "アイスプレミアムモカL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 13,
+    "protein": 0.4,
+    "fat": 0,
+    "carbs": 2.9,
+    "salt": 0,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212915.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210409.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210461",
+   "name": "アイスプレミアムモカLL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 16,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 4,
+    "salt": 0.01,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210850.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210461.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210393",
+   "name": "アイスプレミアムモカＭ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 12,
+    "protein": 0.3,
+    "fat": 0,
+    "carbs": 2.6,
+    "salt": 0,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212397.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210393.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210362",
+   "name": "アイスプレミアムモカS",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 7,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 1.8,
+    "salt": 0.01,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212380.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210362.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210256",
+   "name": "アイスモカブレンドL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 13,
+    "protein": 0.4,
+    "fat": 0,
+    "carbs": 2.9,
+    "salt": 0.01,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212915.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210256.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210638",
+   "name": "アイスモカブレンドLL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 20,
+    "protein": 0.5,
+    "fat": 0,
+    "carbs": 4.5,
+    "salt": 0,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210850.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210638.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210201",
+   "name": "アイスモカブレンドＭ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 11,
+    "protein": 0.3,
+    "fat": 0,
+    "carbs": 2.3,
+    "salt": 0,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212397.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210201.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210447",
+   "name": "アイスモカブレンドS",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 7,
+    "protein": 0.2,
+    "fat": 0,
+    "carbs": 1.6,
+    "salt": 0.01,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212380.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210447.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210843-98afc229",
+   "name": "アップルシナモンシュガー（1gあたり）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "g",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 3.9,
+    "protein": 0.02,
+    "fat": 0,
+    "carbs": 0.95,
+    "salt": 0,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210843.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210560",
+   "name": "アフタヌーンティーロイヤルミルクティーフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 292,
+    "protein": 5.6,
+    "fat": 13.8,
+    "carbs": 36.7,
+    "salt": 0.28,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210560.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210560.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210577",
+   "name": "カフェフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 172,
+    "protein": 2.4,
+    "fat": 7.8,
+    "carbs": 23.3,
+    "salt": 0.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210577.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210577.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0210829-f78f9304",
+   "name": "カフェラテL コーヒーリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 115,
+    "protein": 5.1,
+    "fat": 5.9,
+    "carbs": 10.4,
+    "salt": 0.15,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210829.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210829-3937f08c",
+   "name": "カフェラテL ミルクリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 140,
+    "protein": 6.2,
+    "fat": 7.4,
+    "carbs": 12.1,
+    "salt": 0.18,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210829.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210829",
+   "name": "カフェラテL レギュラー",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 130,
+    "protein": 5.8,
+    "fat": 6.8,
+    "carbs": 11.5,
+    "salt": 0.17,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210829.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210829.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212465-d53741d8",
+   "name": "カフェラテLL コーヒーリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 143,
+    "protein": 6.4,
+    "fat": 7.4,
+    "carbs": 12.5,
+    "salt": 0.18,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212465.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212465-7b46cd6a",
+   "name": "カフェラテLL ミルクリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 161,
+    "protein": 7.2,
+    "fat": 8.5,
+    "carbs": 14,
+    "salt": 0.2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212465.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212465",
+   "name": "カフェラテLL レギュラー",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 154,
+    "protein": 6.9,
+    "fat": 8,
+    "carbs": 13.4,
+    "salt": 0.19,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212465.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212465.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212373-8d12490a",
+   "name": "カフェラテＭ コーヒーリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 93,
+    "protein": 4.1,
+    "fat": 4.7,
+    "carbs": 8.6,
+    "salt": 0.12,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212373.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212373-d85b5342",
+   "name": "カフェラテＭ ミルクリッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 113,
+    "protein": 5.1,
+    "fat": 5.9,
+    "carbs": 10,
+    "salt": 0.15,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212373.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212373",
+   "name": "カフェラテＭ レギュラー",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 104,
+    "protein": 4.6,
+    "fat": 5.4,
+    "carbs": 9.4,
+    "salt": 0.14,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212373.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212373.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210911-292981a6",
+   "name": "キャラメルシュガー（1gあたり）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "g",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 3.8,
+    "protein": 0.02,
+    "fat": 0.02,
+    "carbs": 0.9,
+    "salt": null,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210911.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0211819-29b0d777",
+   "name": "クッキーバニラフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 278,
+    "protein": 5.3,
+    "fat": 11.5,
+    "carbs": 38.7,
+    "salt": 0.37,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0211819.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0210058",
+   "name": "ゴディバ監修オペラチョコレートフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 396,
+    "protein": 5.3,
+    "fat": 23.8,
+    "carbs": 40.8,
+    "salt": 0.14,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210058.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210058.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0211529",
+   "name": "シャインマスカットフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 219,
+    "protein": 1.7,
+    "fat": 5.2,
+    "carbs": 42.3,
+    "salt": 0.11,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0211529.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0211529.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0210799-43d78b75",
+   "name": "ストロベリーフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 215,
+    "protein": 1.9,
+    "fat": 4.4,
+    "carbs": 42.7,
+    "salt": 0.09,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210799.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0212366",
+   "name": "ストロベリーフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 235,
+    "protein": 2,
+    "fat": 6.1,
+    "carbs": 44.3,
+    "salt": 0.07,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212366.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212366.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0213547-9b6b8b73",
+   "name": "ソーダフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 194,
+    "protein": 1.7,
+    "fat": 3,
+    "carbs": 40.6,
+    "salt": 0.08,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0213547.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北"
+  },
+  {
+   "id": "familymart:0210935-94ed273e",
+   "name": "バニラシュガー（1gあたり）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "g",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 3.9,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 1,
+    "salt": 0,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210935.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0211512-a1209f20",
+   "name": "ピーチフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 220,
+    "protein": 2.1,
+    "fat": 5.3,
+    "carbs": 41.7,
+    "salt": 0.11,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0211512.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0211987-8112fbdd",
+   "name": "ブルーベリーヨーグルト味フラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 228,
+    "protein": 2.6,
+    "fat": 6.9,
+    "carbs": 40,
+    "salt": 0.12,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0211987.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210669",
+   "name": "プレミアムモカL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 14,
+    "protein": 0.3,
+    "fat": 0,
+    "carbs": 3.2,
+    "salt": 0.01,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210812.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210669.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210690",
+   "name": "プレミアムモカLL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 16,
+    "protein": 0.8,
+    "fat": 0,
+    "carbs": 3.2,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212458.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210690.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210652",
+   "name": "プレミアムモカＭ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 11,
+    "protein": 0.2,
+    "fat": 0,
+    "carbs": 2.4,
+    "salt": 0.01,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212359.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210652.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210645",
+   "name": "プレミアムモカS",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 6,
+    "protein": 0.3,
+    "fat": 0,
+    "carbs": 1.2,
+    "salt": 0.01,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212342.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210645.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210812",
+   "name": "ブレンドL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 9.6,
+    "protein": 0.3,
+    "fat": 0,
+    "carbs": 2.2,
+    "salt": 0.04,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210812.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210812.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210812-bec0d187",
+   "name": "ブレンドL 軽め",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 6.4,
+    "protein": 0.3,
+    "fat": 0,
+    "carbs": 1.6,
+    "salt": 0.04,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210812.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210812-69394490",
+   "name": "ブレンドL 濃いめ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 9.6,
+    "protein": 0.6,
+    "fat": 0,
+    "carbs": 2.2,
+    "salt": 0.04,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210812.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212458",
+   "name": "ブレンドLL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 16,
+    "protein": 0.8,
+    "fat": 0,
+    "carbs": 2.8,
+    "salt": 0.04,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212458.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212458.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212458-9c4095e8",
+   "name": "ブレンドLL 軽め",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 16,
+    "protein": 0.8,
+    "fat": 0,
+    "carbs": 2.8,
+    "salt": 0.04,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212458.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212458-669af474",
+   "name": "ブレンドLL 濃いめ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 16,
+    "protein": 0.8,
+    "fat": 0,
+    "carbs": 2.8,
+    "salt": 0.04,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212458.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212359",
+   "name": "ブレンドM",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 7.2,
+    "protein": 0.2,
+    "fat": 0,
+    "carbs": 1.4,
+    "salt": 0.04,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212359.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212359.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212359-6025a0d0",
+   "name": "ブレンドM 軽め",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 4.8,
+    "protein": 0.5,
+    "fat": 0,
+    "carbs": 1,
+    "salt": 0.04,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212359.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212359-cceeea4d",
+   "name": "ブレンドM 濃いめ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 9.6,
+    "protein": 0.6,
+    "fat": 0,
+    "carbs": 2.2,
+    "salt": 0.04,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212359.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212342",
+   "name": "ブレンドS",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 3.1,
+    "protein": 0.2,
+    "fat": 0,
+    "carbs": 0.6,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212342.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212342.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212342-aee35ed4",
+   "name": "ブレンドS 軽め",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 3.1,
+    "protein": 0.2,
+    "fat": 0,
+    "carbs": 0.8,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212342.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212342-6b75631b",
+   "name": "ブレンドS 濃いめ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 6.2,
+    "protein": 0.3,
+    "fat": 0,
+    "carbs": 1.2,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212342.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210744-1b9ee78d",
+   "name": "ヘーゼルナッツシュガー（1gあたり）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "g",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 3.9,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 0.97,
+    "salt": 0,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210744.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0212427",
+   "name": "マンゴーフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 210,
+    "protein": 1.8,
+    "fat": 4.1,
+    "carbs": 41.6,
+    "salt": 0.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212427.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0212427.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0212410-3b18eaf5",
+   "name": "メロンフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 235,
+    "protein": 2,
+    "fat": 8.5,
+    "carbs": 38.1,
+    "salt": 0.09,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212410.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0210676",
+   "name": "モカブレンドL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 14,
+    "protein": 0.6,
+    "fat": 0,
+    "carbs": 2.9,
+    "salt": 0.01,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210812.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210676.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210683",
+   "name": "モカブレンドLL",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 18,
+    "protein": 0.4,
+    "fat": 0,
+    "carbs": 4,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212458.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210683.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0211185",
+   "name": "モカブレンドM",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 9,
+    "protein": 0.5,
+    "fat": 0,
+    "carbs": 1.7,
+    "salt": 0.03,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212359.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0211185.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210539",
+   "name": "モカブレンドS",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 6,
+    "protein": 0.3,
+    "fat": 0,
+    "carbs": 1.2,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0212342.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0210539.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0210621-5c8e4b9d",
+   "name": "ラムネソーダフラッペ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 211,
+    "protein": 1.7,
+    "fat": 3.1,
+    "carbs": 44.8,
+    "salt": 0.27,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0210621.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0211475",
+   "name": "焼きいもバターシェイク",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "カフェ",
+   "serving": {
+    "amount": 1,
+    "unit": "杯",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 306,
+    "protein": 3.7,
+    "fat": 9.1,
+    "carbs": 52.1,
+    "salt": 0.15,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0211475.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/cafe.html",
+   "productUrl": "https://www.family.co.jp/goods/cafe/0211475.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:1212464",
+   "name": "5種野菜のまぜまぜサラダ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サラダ",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 74,
+    "protein": 2.1,
+    "fat": 3.8,
+    "carbs": 9,
+    "salt": 1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1212464.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods080.html",
+   "productUrl": "https://www.family.co.jp/goods/salad/1212464.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州 / ※山梨県の一部、長野県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:1222364",
+   "name": "たんぱく質が摂れる！ローストチキンのパスタサラダ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サラダ",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 246,
+    "protein": 15.2,
+    "fat": 5.5,
+    "carbs": 35,
+    "salt": 3.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1222364.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods080.html",
+   "productUrl": "https://www.family.co.jp/goods/salad/1222364.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:1212471",
+   "name": "パリパリ麺サラダ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サラダ",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 263,
+    "protein": 6.3,
+    "fat": 14.8,
+    "carbs": 27.5,
+    "salt": 2.2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1212471.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods080.html",
+   "productUrl": "https://www.family.co.jp/goods/salad/1212471.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東・東海・北陸・関西 / ※山梨県の一部、長野県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:1222371",
+   "name": "甘辛唐揚げマヨパスタサラダ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サラダ",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 305,
+    "protein": 11.7,
+    "fat": 12.9,
+    "carbs": 36.4,
+    "salt": 2.9,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1222371.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods080.html",
+   "productUrl": "https://www.family.co.jp/goods/salad/1222371.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州・沖縄 / ※九州地方は宮崎県、鹿児島県での取り扱いです。"
+  },
+  {
+   "id": "familymart:0910705",
+   "name": "【関東・東海・関西】スイートポテト&ホイップサンド",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サンドイッチ・パン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 292,
+    "protein": 5,
+    "fat": 12.4,
+    "carbs": 40.9,
+    "salt": 0.7,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0910705.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods040.html",
+   "productUrl": "https://www.family.co.jp/goods/sandwich/0910705.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東・東海・関西"
+  },
+  {
+   "id": "familymart:0920278",
+   "name": "【関東・東海・関西】ホットドッグ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サンドイッチ・パン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 250,
+    "protein": 8.9,
+    "fat": 12.5,
+    "carbs": 26.1,
+    "salt": 1.4,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0920278.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods040.html",
+   "productUrl": "https://www.family.co.jp/goods/sandwich/0920278.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東・東海・関西"
+  },
+  {
+   "id": "familymart:0912808",
+   "name": "【東京都の一部・神奈川県の一部】3種のチーズを楽しむサンドイッチ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サンドイッチ・パン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 393,
+    "protein": 15.5,
+    "fat": 28.2,
+    "carbs": 20.3,
+    "salt": 2.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0912808.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods040.html",
+   "productUrl": "https://www.family.co.jp/goods/sandwich/0912808.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東 / ※東京都（港区、渋谷区、新宿区、千代田区、中央区、品川区、文京区、豊島区、目黒区） 、神奈川県（横浜市西区、中区、神奈川区、川崎市川崎区）での取り扱いです。"
+  },
+  {
+   "id": "familymart:0922739",
+   "name": "【東京都の一部・神奈川県の一部】海老とアボカドのロールサンド",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サンドイッチ・パン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 241,
+    "protein": 7,
+    "fat": 13.2,
+    "carbs": 24.8,
+    "salt": 1.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0922739.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods040.html",
+   "productUrl": "https://www.family.co.jp/goods/sandwich/0922739.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東 / ※東京都（港区、渋谷区、新宿区、千代田区、中央区、品川区、文京区、豊島区、目黒区） 、神奈川県（横浜市西区、中区、神奈川区、川崎市川崎区）での取り扱いです。"
+  },
+  {
+   "id": "familymart:0912778",
+   "name": "【東京都の一部・神奈川県の一部】国産鶏むね肉と厚切りトマトゆで玉子のクラブハウスサンド",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サンドイッチ・パン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 221,
+    "protein": 12,
+    "fat": 7.6,
+    "carbs": 27.3,
+    "salt": 1.9,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0912778.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods040.html",
+   "productUrl": "https://www.family.co.jp/goods/sandwich/0912778.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東 / ※東京都（港区、渋谷区、新宿区、千代田区、中央区、品川区、文京区、豊島区、目黒区） 、神奈川県（横浜市西区、中区、神奈川区、川崎市川崎区）での取り扱いです。"
+  },
+  {
+   "id": "familymart:0910590",
+   "name": "5種のフルーツミックスサンド",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サンドイッチ・パン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 239,
+    "protein": 4.3,
+    "fat": 10.9,
+    "carbs": 31.6,
+    "salt": 0.5,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0910590.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods040.html",
+   "productUrl": "https://www.family.co.jp/goods/sandwich/0910590.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0920216",
+   "name": "エッグハンバーグマフィン",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サンドイッチ・パン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 315,
+    "protein": 17.7,
+    "fat": 12.6,
+    "carbs": 34.2,
+    "salt": 1.9,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0920216.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods040.html",
+   "productUrl": "https://www.family.co.jp/goods/sandwich/0920216.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州 / ※九州地方は宮崎県・鹿児島県での取り扱いです。"
+  },
+  {
+   "id": "familymart:0920063",
+   "name": "チーズバーガー",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サンドイッチ・パン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 286,
+    "protein": 13,
+    "fat": 11,
+    "carbs": 34.9,
+    "salt": 2.4,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0920063.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods040.html",
+   "productUrl": "https://www.family.co.jp/goods/sandwich/0920063.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州 / ※宮崎県、鹿児島県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0920131",
+   "name": "石窯パリジャン2種ハム&マスカルポーネ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サンドイッチ・パン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 247,
+    "protein": 10.3,
+    "fat": 7.6,
+    "carbs": 35.2,
+    "salt": 1.7,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0920131.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods040.html",
+   "productUrl": "https://www.family.co.jp/goods/sandwich/0920131.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0920223",
+   "name": "石窯パリジャンサンド（ハム&チーズ）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "サンドイッチ・パン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 270,
+    "protein": 10.1,
+    "fat": 10.2,
+    "carbs": 35.4,
+    "salt": 1.4,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0920223.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods040.html",
+   "productUrl": "https://www.family.co.jp/goods/sandwich/0920223.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:1022247",
+   "name": "【関東・東海・北陸】まろやかコク仕立て ごま豆乳スープ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "スープ・グラタン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 207,
+    "protein": 12.1,
+    "fat": 11.1,
+    "carbs": 16.4,
+    "salt": 3.2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1022247.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods100.html",
+   "productUrl": "https://www.family.co.jp/goods/deli/1022247.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東・東海・北陸 / ※山梨県の一部、長野県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:1022254",
+   "name": "【関東・東海】生姜香る具だくさん中華スープ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "スープ・グラタン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 119,
+    "protein": 9.3,
+    "fat": 3.9,
+    "carbs": 13.5,
+    "salt": 3.6,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1022254.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods100.html",
+   "productUrl": "https://www.family.co.jp/goods/deli/1022254.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東・東海 / ※山梨県の一部、長野県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:1023053",
+   "name": "【関東の一部】肉たっぷり 7種具材の豚汁",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "スープ・グラタン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 149,
+    "protein": 10.7,
+    "fat": 10,
+    "carbs": 4.9,
+    "salt": 2.5,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1023053.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods100.html",
+   "productUrl": "https://www.family.co.jp/goods/deli/1023053.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東 / ※茨城県、栃木県、群馬県、埼玉県、千葉県、東京都の一部、神奈川県の一部店舗での取り扱いです。"
+  },
+  {
+   "id": "familymart:1023022",
+   "name": "【東京都の一部・神奈川県の一部】焼野菜の旨みを閉じ込めた食べるミネストローネ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "スープ・グラタン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 172,
+    "protein": 9.1,
+    "fat": 5.2,
+    "carbs": 25.8,
+    "salt": 3.4,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1023022.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods100.html",
+   "productUrl": "https://www.family.co.jp/goods/deli/1023022.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東 / ※東京都（港区、渋谷区、新宿区、千代田区、中央区、品川区、文京区、豊島区、目黒区） 、神奈川県（横浜市西区、中区、神奈川区、川崎市川崎区）での取り扱いです。"
+  },
+  {
+   "id": "familymart:1023060",
+   "name": "【東京都の一部】野菜を味わう具だくさん豚汁",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "スープ・グラタン",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 122,
+    "protein": 10.5,
+    "fat": 6.6,
+    "carbs": 6.4,
+    "salt": 3.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1023060.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods100.html",
+   "productUrl": "https://www.family.co.jp/goods/deli/1023060.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東 / ※東京都の一部での取り扱いです。"
+  },
+  {
+   "id": "familymart:1130041",
+   "name": "カニカマとキャベツのからしマヨサラダ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "チルド惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 171,
+    "protein": 3.7,
+    "fat": 12.3,
+    "carbs": 11.8,
+    "salt": 1.6,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1130041.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods090.html",
+   "productUrl": "https://www.family.co.jp/goods/sidedishes/1130041.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:1132892",
+   "name": "コールスローサラダ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "チルド惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 123,
+    "protein": 1.6,
+    "fat": 9.3,
+    "carbs": 9.4,
+    "salt": 1.4,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1132892.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods090.html",
+   "productUrl": "https://www.family.co.jp/goods/sidedishes/1132892.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・関西・中国・四国・九州 / ※北海道では仕様が異なります。※静岡県の一部では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:1160840",
+   "name": "こだわり肉シュウマイ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "チルド惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 379,
+    "protein": 15,
+    "fat": 24,
+    "carbs": 26.6,
+    "salt": 2.2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1160840.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods090.html",
+   "productUrl": "https://www.family.co.jp/goods/sidedishes/1160840.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:1130058",
+   "name": "ふんわりオムレツ野菜とトマトのソース",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "チルド惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 184,
+    "protein": 6.3,
+    "fat": 13.1,
+    "carbs": 10.4,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1130058.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods090.html",
+   "productUrl": "https://www.family.co.jp/goods/sidedishes/1130058.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州 / ※宮崎県、鹿児島県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:1160925",
+   "name": "揚げ出し豆腐",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "チルド惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 232,
+    "protein": 12.5,
+    "fat": 14.4,
+    "carbs": 13.9,
+    "salt": 1.5,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/1160925.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods090.html",
+   "productUrl": "https://www.family.co.jp/goods/sidedishes/1160925.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0822701",
+   "name": "【東京都の一部・神奈川県の一部】生パスタ 霜降りひらたけ®と舞茸のきのこクリーム",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "パスタ",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 491,
+    "protein": 17,
+    "fat": 18.7,
+    "carbs": 67.9,
+    "salt": 2.6,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0822701.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods070.html",
+   "productUrl": "https://www.family.co.jp/goods/pasta/0822701.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東 / ※東京都（港区、渋谷区、新宿区、千代田区、中央区、品川区、文京区、豊島区、目黒区） 、神奈川県（横浜市西区、中区、神奈川区、川崎市川崎区）での取り扱いです。"
+  },
+  {
+   "id": "familymart:0821506",
+   "name": "リュウジの至高のレシピ ガリバタチキンパスタ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "パスタ",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 467,
+    "protein": 25.2,
+    "fat": 15.7,
+    "carbs": 58.9,
+    "salt": 4.8,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0821506.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods070.html",
+   "productUrl": "https://www.family.co.jp/goods/pasta/0821506.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0823340",
+   "name": "生パスタ 濃い濃いカルボナーラ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "パスタ",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 428,
+    "protein": 19.1,
+    "fat": 14.1,
+    "carbs": 57.7,
+    "salt": 3.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0823340.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods070.html",
+   "productUrl": "https://www.family.co.jp/goods/pasta/0823340.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0240574",
+   "name": "こしあんまん（ごま風味）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 223,
+    "protein": 5.1,
+    "fat": 5,
+    "carbs": 39.5,
+    "salt": 0.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0240574.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": "https://www.family.co.jp/goods/chukaman/0240574.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0240161",
+   "name": "じゅわっとジューシー本格肉まん",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 221,
+    "protein": 6.4,
+    "fat": 8.2,
+    "carbs": 30.3,
+    "salt": 0.9,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0240161.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": "https://www.family.co.jp/goods/chukaman/0240161.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0240635-a6e89dc3",
+   "name": "スパイス香るタコスまん",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 200,
+    "protein": 8,
+    "fat": 6.3,
+    "carbs": 27.8,
+    "salt": 0.9,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0240635.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0240567",
+   "name": "つぶあんまん",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 189,
+    "protein": 5,
+    "fat": 1.8,
+    "carbs": 38.3,
+    "salt": 0.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0240567.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": "https://www.family.co.jp/goods/chukaman/0240567.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0240260",
+   "name": "のびーるチーズのコク旨ピザまん",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 202,
+    "protein": 5.8,
+    "fat": 6.7,
+    "carbs": 29.6,
+    "salt": 0.9,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0240260.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": "https://www.family.co.jp/goods/chukaman/0240260.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0240673",
+   "name": "リュウジの至高のレシピ とろたま牛すきまん",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 230,
+    "protein": 7.4,
+    "fat": 7.7,
+    "carbs": 32.8,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0240673.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": "https://www.family.co.jp/goods/chukaman/0240673.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0240611",
+   "name": "極旨 黒豚まん",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 258,
+    "protein": 9.5,
+    "fat": 7.7,
+    "carbs": 37.6,
+    "salt": 1.4,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0240611.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": "https://www.family.co.jp/goods/chukaman/0240611.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0240604-44171875",
+   "name": "極旨 黒豚まんカレー",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 271,
+    "protein": 9.5,
+    "fat": 9.2,
+    "carbs": 37.5,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0240604.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0240659-3b94cbc3",
+   "name": "極旨 黒豚まんチーズ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 267,
+    "protein": 10.3,
+    "fat": 9.6,
+    "carbs": 34.9,
+    "salt": 1.4,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0240659.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0240666",
+   "name": "森永製菓監修バター香るホットケーキまん",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 179,
+    "protein": 3.1,
+    "fat": 5.3,
+    "carbs": 29.8,
+    "salt": 0.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0240666.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": "https://www.family.co.jp/goods/chukaman/0240666.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0240642-ca672e91",
+   "name": "森永製菓監修ホットケーキまん（あんバター）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 187,
+    "protein": 4.2,
+    "fat": 5.6,
+    "carbs": 30,
+    "salt": 0.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0240642.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0245067-c50d00b8",
+   "name": "中華まん用からし",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 2,
+    "protein": 0.1,
+    "fat": 0.1,
+    "carbs": 0.1,
+    "salt": 0.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0245067.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0245012-09a7a12f",
+   "name": "肉まんのたれ酢醤油",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "中華まん",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 1,
+    "protein": 0.1,
+    "fat": 0,
+    "carbs": 0.1,
+    "salt": 0.7,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0245012.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/chukaman.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0812320",
+   "name": "【関東・九州】まろやかなクリームで味わう 明太クリームうどん",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "麺",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 436,
+    "protein": 13.2,
+    "fat": 11.3,
+    "carbs": 71.4,
+    "salt": 3.7,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0812320.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods060.html",
+   "productUrl": "https://www.family.co.jp/goods/noodle/0812320.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東・九州 / ※静岡県の一部では取り扱いがございません。※九州地方は宮崎県・鹿児島県での取り扱いです。"
+  },
+  {
+   "id": "familymart:0810104",
+   "name": "【関東】横浜家系豚骨醤油ラーメン",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "麺",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 476,
+    "protein": 22.6,
+    "fat": 17.6,
+    "carbs": 58.2,
+    "salt": 6.8,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0810104.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods060.html",
+   "productUrl": "https://www.family.co.jp/goods/noodle/0810104.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東 / ※静岡県の一部では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0812719",
+   "name": "【東京都の一部・神奈川県の一部】8品目のナムルと野菜のビビン麺",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "麺",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 400,
+    "protein": 17.5,
+    "fat": 11.1,
+    "carbs": 60.6,
+    "salt": 4.2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0812719.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods060.html",
+   "productUrl": "https://www.family.co.jp/goods/noodle/0812719.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関東 / ※東京都（港区、渋谷区、新宿区、千代田区、中央区、品川区、文京区、豊島区、目黒区） 、神奈川県（横浜市西区、中区、神奈川区、川崎市川崎区）での取り扱いです。"
+  },
+  {
+   "id": "familymart:0810029",
+   "name": "【北海道・東北・関東】らぁ麺Q監修 至高の一杯 煮干し醤油らぁ麺",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "麺",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 472,
+    "protein": 19.1,
+    "fat": 16.3,
+    "carbs": 64.1,
+    "salt": 4.6,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0810029.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods060.html",
+   "productUrl": "https://www.family.co.jp/goods/noodle/0810029.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東 / ※静岡県の一部では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0810272",
+   "name": "お手軽！冷しぶっかけそば",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "麺",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 223,
+    "protein": 10.8,
+    "fat": 3.8,
+    "carbs": 37.8,
+    "salt": 2.9,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0810272.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods060.html",
+   "productUrl": "https://www.family.co.jp/goods/noodle/0810272.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州 / ※宮崎県、鹿児島県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0812283",
+   "name": "こだわりだしのかき揚げうどん",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "麺",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 505,
+    "protein": 13.3,
+    "fat": 14.3,
+    "carbs": 82.6,
+    "salt": 5.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0812283.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods060.html",
+   "productUrl": "https://www.family.co.jp/goods/noodle/0812283.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国"
+  },
+  {
+   "id": "familymart:0823289",
+   "name": "ふんわりたまご オムそば",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "麺",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 655,
+    "protein": 18,
+    "fat": 28.7,
+    "carbs": 83.6,
+    "salt": 6.2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0823289.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods060.html",
+   "productUrl": "https://www.family.co.jp/goods/noodle/0823289.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州 / ※宮崎県、鹿児島県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0812351",
+   "name": "花椒の香りと2種の練り胡麻仕立て汁なし担担麺",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "麺",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 544,
+    "protein": 20.7,
+    "fat": 18.4,
+    "carbs": 77.2,
+    "salt": 4.6,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0812351.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/goods060.html",
+   "productUrl": "https://www.family.co.jp/goods/noodle/0812351.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・九州 / ※宮崎県、鹿児島県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0253888-4ba119da",
+   "name": "Ｗペッパーつくね串",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 228,
+    "protein": 13.3,
+    "fat": 12,
+    "carbs": 16.9,
+    "salt": 2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0253888.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0251174",
+   "name": "アメリカンドッグ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 335,
+    "protein": 7,
+    "fat": 18.1,
+    "carbs": 35.8,
+    "salt": 1.8,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251174.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0251174.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0250610",
+   "name": "クリスピーチキン（プレーン）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 183.1,
+    "protein": 12.2,
+    "fat": 9.6,
+    "carbs": 11.9,
+    "salt": 1.4,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0250610.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0250610.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0251501",
+   "name": "ころじゃが（うま塩味）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 237,
+    "protein": 2.2,
+    "fat": 14.4,
+    "carbs": 24.6,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251501.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0251501.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0254489",
+   "name": "ジャンボフランク",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 256,
+    "protein": 11.5,
+    "fat": 20.5,
+    "carbs": 6.4,
+    "salt": 1.9,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0254489.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0254489.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0252102",
+   "name": "スパイシーチキン",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 207,
+    "protein": 9.5,
+    "fat": 12.2,
+    "carbs": 14.7,
+    "salt": 1.2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0252102.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0252102.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0256865-19a1c7a1",
+   "name": "タルタルソース",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 46,
+    "protein": 0.2,
+    "fat": 4.8,
+    "carbs": 0.4,
+    "salt": 0.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0256865.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0255783-016612f1",
+   "name": "トマト＆あらびきマスタード",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 6,
+    "protein": 0.1,
+    "fat": 0.1,
+    "carbs": 1,
+    "salt": 0.2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0255783.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0256889-865999bc",
+   "name": "トマトケチャップ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 10.8,
+    "protein": 0.1,
+    "fat": 0.02,
+    "carbs": 2.5,
+    "salt": 0.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0256889.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0252867",
+   "name": "ハッシュドポテト",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 196.5,
+    "protein": 1.4,
+    "fat": 13.1,
+    "carbs": 18.2,
+    "salt": 1.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0252867.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0252867.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0254816",
+   "name": "ビッグ焼きとり かわタレ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 185.4,
+    "protein": 7.6,
+    "fat": 16.2,
+    "carbs": 2.4,
+    "salt": 1.4,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0254816.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0254816.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0254823",
+   "name": "ビッグ焼きとり かわ塩",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 188.6,
+    "protein": 7.5,
+    "fat": 17.1,
+    "carbs": 1.2,
+    "salt": 1.1,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0254823.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0254823.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0254786",
+   "name": "ビッグ焼きとり ももタレ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 135.7,
+    "protein": 12.6,
+    "fat": 8.2,
+    "carbs": 2.9,
+    "salt": 2,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0254786.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0254786.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0254809",
+   "name": "ビッグ焼きとり もも塩",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 126.8,
+    "protein": 13.3,
+    "fat": 7.4,
+    "carbs": 1.9,
+    "salt": 1.7,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0254809.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0254809.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0251860",
+   "name": "ファミから（塩）1個",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 94,
+    "protein": 7.6,
+    "fat": 4.8,
+    "carbs": 5.2,
+    "salt": 0.7,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251860.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0251860.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0251860-9344cd57",
+   "name": "ファミから（塩）Ｐ1個",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 119.1,
+    "protein": 7.6,
+    "fat": 6.4,
+    "carbs": 7.8,
+    "salt": 0.9,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251860.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0251860.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関西"
+  },
+  {
+   "id": "familymart:0251822",
+   "name": "ファミから（醤油）１個",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 94.6,
+    "protein": 7.3,
+    "fat": 4.8,
+    "carbs": 5.7,
+    "salt": 0.6,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251822.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0251822.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・九州・沖縄"
+  },
+  {
+   "id": "familymart:0251822-11e0d2d9",
+   "name": "ファミから（醤油）Ｍ１個",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 122.9,
+    "protein": 8.8,
+    "fat": 7.7,
+    "carbs": 4.6,
+    "salt": 0.8,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251822.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0251822.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 関西・中国・四国"
+  },
+  {
+   "id": "familymart:0251532-5e43cc38",
+   "name": "ファミから（味ぽん味）1個",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 100.3,
+    "protein": 7.6,
+    "fat": 4.3,
+    "carbs": 7.8,
+    "salt": 0.7,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251532.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0250818",
+   "name": "ファミコロ（サクッと衣の牛肉コロッケ）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 256.5,
+    "protein": 3.8,
+    "fat": 17.4,
+    "carbs": 21.1,
+    "salt": 0.6,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0250818.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0250818.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0253116",
+   "name": "ファミチキ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 251.7,
+    "protein": 12.7,
+    "fat": 15.7,
+    "carbs": 14.8,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0253116.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0253116.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0252508-aad78f87",
+   "name": "ファミチキ（ごま山椒味）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 254.8,
+    "protein": 13.5,
+    "fat": 14.3,
+    "carbs": 17.9,
+    "salt": 1.9,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0252508.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0252454-38d3e3d2",
+   "name": "ファミチキ（スモーキーペッパー味）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 245,
+    "protein": 13.9,
+    "fat": 14.1,
+    "carbs": 15.6,
+    "salt": 1.6,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0252454.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0252522-b0459c41",
+   "name": "ファミチキ（ピッツァ味）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 243.5,
+    "protein": 15.3,
+    "fat": 13,
+    "carbs": 16.3,
+    "salt": 1.4,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0252522.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0250924",
+   "name": "ファミチキ（レッド）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 253.4,
+    "protein": 14.9,
+    "fat": 14.7,
+    "carbs": 15.5,
+    "salt": 1.8,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0250924.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0250924.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0254830",
+   "name": "ミルフィーユチキンカツ",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 292.6,
+    "protein": 12.2,
+    "fat": 18.5,
+    "carbs": 19.2,
+    "salt": 1.5,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0254830.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0254830.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0231350",
+   "name": "やきいも",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 151.2,
+    "protein": 1.4,
+    "fat": 0.2,
+    "carbs": 39,
+    "salt": 0.04,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0231350.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0231350.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州 / ※100gあたり"
+  },
+  {
+   "id": "familymart:0250009",
+   "name": "鶏つくね串",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 226,
+    "protein": 14.5,
+    "fat": 11.2,
+    "carbs": 16.8,
+    "salt": 1.6,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0250009.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": "https://www.family.co.jp/goods/friedfoods/0250009.html",
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0251617-25e70066",
+   "name": "炭火焼きとり かわ（タレ）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 159,
+    "protein": 5.9,
+    "fat": 13.2,
+    "carbs": 4.3,
+    "salt": 0.8,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251617.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州"
+  },
+  {
+   "id": "familymart:0251549-c44274d9",
+   "name": "炭火焼きとり かわ（塩）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 131,
+    "protein": 5.7,
+    "fat": 11.1,
+    "carbs": 2,
+    "salt": 0.9,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251549.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州 / ※宮崎県、鹿児島県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0255998-915180d1",
+   "name": "炭火焼きとり ハツ塩",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 52,
+    "protein": 6.6,
+    "fat": 2.5,
+    "carbs": 0.8,
+    "salt": 0.6,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0255998.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄 / ※宮崎県、鹿児島県では取り扱いがございません。"
+  },
+  {
+   "id": "familymart:0251518-540ee38d",
+   "name": "炭火焼きとり もも（タレ）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 76.9,
+    "protein": 7.7,
+    "fat": 4,
+    "carbs": 2.5,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251518.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0251600-51463195",
+   "name": "炭火焼きとり もも（塩）",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 83.2,
+    "protein": 8.1,
+    "fat": 5,
+    "carbs": 1.6,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251600.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0250689-3091fa36",
+   "name": "中濃ソース小袋",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 8,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 2.1,
+    "salt": 0.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0250689.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  },
+  {
+   "id": "familymart:0251778-a88c91bf",
+   "name": "燻製あい鴨ロース串",
+   "brand": "ファミリーマート",
+   "store": "familymart",
+   "category": "揚げ物・惣菜",
+   "serving": {
+    "amount": 1,
+    "unit": "個",
+    "grams": null
+   },
+   "nutrition": {
+    "calories": 99.1,
+    "protein": 8.5,
+    "fat": 6.8,
+    "carbs": 1,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "imageUrl": "https://www.family.co.jp/content/dam/family/goods/0251778.jpg",
+   "sourceUrl": "https://www.family.co.jp/goods/safety/friedfoods.html",
+   "productUrl": null,
+   "updatedAt": "2026-10-29",
+   "quality": "official",
+   "origin": "common",
+   "status": "active",
+   "note": "対象地域: 北海道・東北・関東・東海・北陸・関西・中国・四国・九州・沖縄"
+  }
+ ]
+}

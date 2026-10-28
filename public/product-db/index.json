@@ -1,0 +1,23 @@
+{
+ "schemaVersion": 1,
+ "name": "夜勤の減量ノート 共通商品DB",
+ "stores": [
+  {
+   "id": "familymart",
+   "name": "ファミリーマート",
+   "file": "stores/familymart.json",
+   "updatedAt": "2026-10-29",
+   "count": 187,
+   "active": 187
+  },
+  {
+   "id": "lawson",
+   "name": "ローソン",
+   "file": "stores/lawson.json",
+   "updatedAt": "2026-10-29",
+   "count": 527,
+   "active": 527
+  }
+ ],
+ "updatedAt": "2026-10-29"
+}
