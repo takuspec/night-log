@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import { Leaf } from 'lucide-react';
 import { type Goal, type Nutrition, type Product, type Meal } from './model';
 import { evaluateNutrition, nutrients, snackSuggestions } from './foodLogic';
 
@@ -26,4 +28,14 @@ export function Snacks({ products, daily, goal, onAdd }: { products: Product[]; 
 
 export function MealEvaluation({ meal }: { meal: Meal }) {
   return <Evaluation value={meal.total} targets={meal.targets ?? null} sample={meal.items.some(i => i.product.quality === 'sample')} />;
+}
+
+// 商品写真。公式サイトの画像をその場で表示するだけで、端末やリポジトリには保存しない。
+// 通信できない・読み込みに失敗したときはアイコンを表示する
+export function ProductPhoto({ product, size = 'normal' }: { product: Product; size?: 'normal' | 'small' }) {
+  const [failed, setFailed] = useState(false);
+  const url = product.imageUrl?.startsWith('https://') ? product.imageUrl : null;
+  return <div className={'product-icon' + (size === 'small' ? ' small' : '')}>{url && !failed
+    ? <img src={url} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" onError={() => setFailed(true)} />
+    : <Leaf size={size === 'small' ? 16 : 22} />}</div>;
 }

@@ -30,7 +30,9 @@ async function get(url) {
     }
   }
 }
-const text = s => s.replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/[\s　]+/g, ' ').trim();
+const entities = { amp: '&', nbsp: ' ', quot: '"', apos: "'", lt: '<', gt: '>', reg: '®', copy: '©', trade: '™', eacute: 'é', egrave: 'è', agrave: 'à', ocirc: 'ô', times: '×', hellip: '…' };
+const decode = s => s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) => e[0] === '#' ? String.fromCodePoint(e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : Number(e.slice(1))) : entities[e] ?? m);
+const text = s => decode(s.replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, '')).replace(/[\s　]+/g, ' ').trim();
 const hash = s => createHash('sha1').update(s.normalize('NFKC')).digest('hex').slice(0, 8);
 // "251.7" "1.50g" "204kcal" → number。"-" や "不明" などは null（推測で埋めない）
 function num(s) {

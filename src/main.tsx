@@ -6,7 +6,7 @@ import {Home,Utensils,Activity,ChartNoAxesCombined,Settings,Moon,Plus,ArrowUpRig
 import {db,initialize,backup,restore,healthSchema,importHealth,syncCommonProducts,commonDbStatus,changeDayBoundary,loadDraft,type MealDraft} from './db';
 import {Food} from './Food';
 import {Products} from './Products';
-import {NutritionGrid} from './NutritionView';
+import {NutritionGrid,ProductPhoto} from './NutritionView';
 import {type Product,type Meal,type Goal,productSchema,dayKey,shiftDay,jstInput,fromInput,totalNutrition,qualityLabels,validateBackup,boundaryLabel,getBoundary,parseBoundary} from './model';
 import './style.css';
 const fmt=(n:number|null|undefined,d=0)=>n==null?'—':n.toLocaleString('ja-JP',{maximumFractionDigits:d});
@@ -54,7 +54,7 @@ function MealHistory({meals,day,onDay,onAdd,onEdit,onDelete}:{meals:Meal[];day:s
   <p className="muted">集計日 {day} {boundaryLabel()} 〜 {shiftDay(day,1)} {boundaryLabel()}（日本時間）。不明な栄養値を含む項目は「不明」と表示します。</p>
   {today.length>0&&<NutritionGrid value={totalNutrition(today.flatMap(m=>m.items))}/>}
   {today.map(m=><article className="meal-detail" key={m.id}><div className="section-heading"><div><small>{time(m.at)} ・ {m.kind}</small><h3>{fmt(m.total.calories)} kcal</h3></div><div className="product-actions"><button className="icon-button" aria-label={`${time(m.at)} ${m.kind}を編集`} onClick={()=>onEdit(m)}><Pencil size={16}/></button><button className="icon-button" aria-label={`${time(m.at)} ${m.kind}を削除`} onClick={()=>onDelete(m)}><Trash2 size={16}/></button></div></div>
-   <ul className="meal-items">{m.items.map((i,n)=><li key={n}><span>{i.product.name}<small> {i.product.brand}</small></span><span>{fmt(i.quantity,3)} × {i.product.serving.amount}{i.product.serving.unit}</span><span>{fmt(i.product.nutrition.calories==null?null:i.product.nutrition.calories*i.quantity)} kcal</span></li>)}</ul>
+   <ul className="meal-items">{m.items.map((i,n)=><li key={n}><span className="item-title"><ProductPhoto product={i.product} size="small"/><span>{i.product.name}<small> {i.product.brand}</small></span></span><span>{fmt(i.quantity,3)} × {i.product.serving.amount}{i.product.serving.unit}</span><span>{fmt(i.product.nutrition.calories==null?null:i.product.nutrition.calories*i.quantity)} kcal</span></li>)}</ul>
    <NutritionGrid value={m.total}/>{m.note&&<p className="muted">{m.note}</p>}</article>)}
   {!today.length&&<div className="empty"><Utensils size={30}/><h3>この集計日の食事はまだありません</h3><p>商品をまとめて選んで、1回の食事として保存できます。</p></div>}
  </section>

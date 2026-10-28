@@ -19,3 +19,6 @@ label.check{display:flex;align-items:center;gap:8px;margin:4px 0 8px}label.check
 @media (max-width:560px){.meal-items li{grid-template-columns:1fr auto}.meal-items li span:first-child{grid-column:1/-1}}
 .nutrition-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:6px;margin:10px 0}
 .nutrition-grid>div{background:#f7f8f2;border-radius:8px;padding:8px 10px}.nutrition-grid dt{font-size:10px;color:#7b8879}.nutrition-grid dd{margin:2px 0 0;font-size:15px;font-weight:650}.nutrition-grid dd small{font-size:10px;font-weight:400}
+.product-icon{overflow:hidden}.product-icon img{width:100%;height:100%;object-fit:cover;display:block;background:#fff}
+.product-icon.small{width:34px;height:34px;border-radius:7px}
+.item-title{display:flex;align-items:center;gap:10px;min-width:0}
