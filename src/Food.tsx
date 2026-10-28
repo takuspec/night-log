@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Plus, Minus, Search, Star, Trash2, Check, ExternalLink } from 'lucide-react';
+import { Plus, Minus, Search, Star, Trash2, Check, ExternalLink, ShoppingBasket } from 'lucide-react';
 import { db, saveMeal, toggleFavorite, saveDraft, type MealDraft } from './db';
 import { type Product, type Meal, type Goal, productSchema, dayKey, jstInput, fromInput, totalNutrition, qualityLabels, boundaryLabel } from './model';
 import { matchesProduct, mealKind, mealTargets, portionGrams, quantityFromAmount, combineNutrition, nutrients } from './foodLogic';
@@ -24,6 +24,11 @@ export function Food({ products, meals, goal, favorites, run, busy, initial, dra
   }, [initial, cart, at, kind, manualKind, note]);
   const [share, setShare] = useState(Number(((initial?.meal.targetShare ?? 1 / 3) * 100).toFixed(1)));
   const [units, setUnits] = useState<Record<number, 'portion' | 'grams'>>({});
+  // スマホでは「商品をえらぶ」「カート」を切り替えて表示する（PCでは両方を並べて表示）
+  const [step, setStep] = useState<'pick' | 'cart'>(initial?.edit ? 'cart' : 'pick'), [flash, setFlash] = useState('');
+  const firstStep = useRef(true);
+  useEffect(() => { if (firstStep.current) { firstStep.current = false; return; } window.scrollTo({ top: 0 }); }, [step]);
+  useEffect(() => { if (!flash) return; const t = setTimeout(() => setFlash(''), 1800); return () => clearTimeout(t); }, [flash]);
   const [copied, setCopied] = useState(false);
   const saving = useRef(false);
   let iso = ''; try { iso = fromInput(at); } catch { /* Incomplete native date field. */ }
@@ -36,6 +41,7 @@ export function Food({ products, meals, goal, favorites, run, busy, initial, dra
     .sort((a, b) => Number(b.origin === 'personal') - Number(a.origin === 'personal') || Number(a.status === 'discontinued') - Number(b.status === 'discontinued') || a.name.localeCompare(b.name, 'ja'));
 
   function add(product: Product) {
+    setFlash(product.name);
     setCart(old => {
       const index = old.findIndex(i => JSON.stringify(i.product) === JSON.stringify(product));
       return index < 0 ? [...old, { product: structuredClone(product), quantity: 1 }] : old.map((i, n) => n === index ? { ...i, quantity: i.quantity + 1 } : i);
@@ -47,7 +53,12 @@ export function Food({ products, meals, goal, favorites, run, busy, initial, dra
     setUnits({});
   }
   const sample = cart.some(i => i.product.quality === 'sample');
-  return <div className="food-layout">
+  const count = cart.length, kcal = numberText(total.calories, 0);
+  return <><div className="mobile-steps" role="tablist">
+    <button type="button" role="tab" aria-selected={step === 'pick'} className={step === 'pick' ? 'selected' : ''} onClick={() => setStep('pick')}><Search size={16} />商品をえらぶ</button>
+    <button type="button" role="tab" aria-selected={step === 'cart'} className={step === 'cart' ? 'selected' : ''} onClick={() => setStep('cart')}><ShoppingBasket size={16} />カート<span className="count">{count}</span></button>
+  </div>
+  <div className="food-layout" data-step={step}>
     <div><section className="card"><div className="section-heading"><h2>商品を追加</h2><small className="muted">コンビニ・スーパー・外食・自炊</small></div>
       <div className="pills food-tabs">{[['products', '商品検索'], ['favorites', 'お気に入り'], ['history', '食事履歴'], ['manual', '手動登録'], ['ai', 'AI貼り付け']].map(([v, label]) => <button type="button" key={v} aria-pressed={source === v} className={source === v ? 'selected' : ''} onClick={() => setSource(v)}>{label}</button>)}</div>
       {(source === 'products' || source === 'favorites') && <><label className="search"><Search size={18} /><input aria-label="商品検索" placeholder="ファミマ 納豆、商品名など" value={q} onChange={e => { setQ(e.target.value); setShown(PAGE); }} /></label><div className="form-grid"><label>メーカー・販売店<select value={store} onChange={e => { setStore(e.target.value); setCategory(''); setShown(PAGE); }}><option value="">すべて</option><option value="__personal">個人商品のみ</option>{stores.map(s => <option key={s}>{s}</option>)}</select></label><label>カテゴリ<select value={category} onChange={e => { setCategory(e.target.value); setShown(PAGE); }}><option value="">すべて</option>{[...new Set(products.filter(inStore).map(p => p.category))].sort((a, b) => a.localeCompare(b, 'ja')).map(c => <option key={c}>{c}</option>)}</select></label></div><label className="check"><input type="checkbox" checked={showEnded} onChange={e => setShowEnded(e.target.checked)} />販売終了の商品も表示</label><p className="muted">{list.length}件。共通商品は公式サイト掲載の栄養成分（地域・時期により実物の表示と異なる場合があります）。星はこの端末のお気に入りです。</p>
@@ -70,7 +81,7 @@ export function Food({ products, meals, goal, favorites, run, busy, initial, dra
     }}><span className="eyebrow">ONE MEAL, TOGETHER</span><h2>{initial?.edit ? '食事を編集' : '今回の食事'} <small>{cart.length}品</small></h2>
       <label>実際の日時（日本時間）<input name="at" type="datetime-local" required value={at} onInput={e => { const value = e.currentTarget.value; setAt(value); if (!manualKind && value) { try { setKind(mealKind(fromInput(value))); } catch { /* incomplete */ } } }} onChange={e => setAt(e.target.value)} /></label><p className="muted">集計日：{day || '日時を入力してください'}（{boundaryLabel()}区切り）</p>
       <label>食事区分<select value={kind} onChange={e => { setKind(e.target.value); setManualKind(true); }}>{[...new Set(['朝食', '昼食', '夕食', '夜食', '間食', kind])].map(k => <option key={k}>{k}</option>)}</select></label><button type="button" className="small-button" onClick={() => { setManualKind(false); if (iso) setKind(mealKind(iso)); }}>時刻からの自動提案に戻す</button>
-      {cart.map((item, index) => { const unit = units[index] ?? 'portion', grams = portionGrams(item.product); return <div className="portion-row" key={index}><div className="section-heading"><span className="item-title"><ProductPhoto product={item.product} size="small" /><strong>{item.product.name}</strong></span><button type="button" aria-label={item.product.name + 'を選択解除'} className="icon-button" onClick={() => { setCart(c => c.filter((_, j) => index !== j)); setUnits({}); }}><Trash2 size={16} /></button></div><small>{qualityLabels[item.product.quality]} · 基準量 {item.product.serving.amount}{item.product.serving.unit}{grams && item.product.serving.unit !== 'g' ? `（${grams}g）` : ''}</small><div className="portion-input"><label>分量<input aria-label={item.product.name + 'の分量'} type="number" min="0.001" step="any" required value={Number.isFinite(item.quantity) ? Number((unit === 'grams' ? item.quantity * grams! : item.quantity).toFixed(4)) : ''} onChange={e => { const amount = e.target.valueAsNumber; setCart(c => c.map((x, j) => j === index ? { ...x, quantity: unit === 'grams' ? amount / grams! : amount } : x)); }} /></label><label>入力単位<select aria-label={item.product.name + 'の入力単位'} value={unit} onChange={e => setUnits(u => ({ ...u, [index]: e.target.value as 'portion' | 'grams' }))}><option value="portion">基準量の倍数</option>{grams && <option value="grams">グラム</option>}</select></label><div className="stepper"><button type="button" className="icon-button" aria-label={item.product.name + 'を0.5減らす'} disabled={!(item.quantity > 0.5)} onClick={() => setCart(c => c.map((x, j) => j === index ? { ...x, quantity: Math.max(0.5, x.quantity - 0.5) } : x))}><Minus size={15} /></button><button type="button" className="icon-button" aria-label={item.product.name + 'を0.5増やす'} onClick={() => setCart(c => c.map((x, j) => j === index ? { ...x, quantity: (Number.isFinite(x.quantity) ? x.quantity : 0) + 0.5 } : x))}><Plus size={15} /></button></div></div><small>{numberText(item.quantity)} ×基準量 / {numberText(item.product.nutrition.calories == null || !Number.isFinite(item.quantity) ? null : item.product.nutrition.calories * item.quantity)} kcal</small></div>; })}
+      {cart.map((item, index) => { const unit = units[index] ?? 'portion', grams = portionGrams(item.product); return <div className="portion-row" key={index}><div className="section-heading"><span className="item-title"><ProductPhoto product={item.product} size="small" /><strong>{item.product.name}</strong></span><button type="button" aria-label={item.product.name + 'を選択解除'} className="icon-button" onClick={() => { setCart(c => c.filter((_, j) => index !== j)); setUnits({}); }}><Trash2 size={16} /></button></div><small>{qualityLabels[item.product.quality]} · 基準量 {item.product.serving.amount}{item.product.serving.unit}{grams && item.product.serving.unit !== 'g' ? `（${grams}g）` : ''}</small><div className="portion-input"><label>分量<input aria-label={item.product.name + 'の分量'} type="number" min="0.001" step="any" required value={Number.isFinite(item.quantity) ? Number((unit === 'grams' ? item.quantity * grams! : item.quantity).toFixed(4)) : ''} onChange={e => { const amount = e.target.valueAsNumber; setCart(c => c.map((x, j) => j === index ? { ...x, quantity: unit === 'grams' ? amount / grams! : amount } : x)); }} /></label><label>入力単位<select aria-label={item.product.name + 'の入力単位'} value={unit} onChange={e => setUnits(u => ({ ...u, [index]: e.target.value as 'portion' | 'grams' }))}><option value="portion">倍（基準量）</option>{grams && <option value="grams">グラム</option>}</select></label><div className="stepper"><button type="button" className="icon-button" aria-label={item.product.name + 'を0.5減らす'} disabled={!(item.quantity > 0.5)} onClick={() => setCart(c => c.map((x, j) => j === index ? { ...x, quantity: Math.max(0.5, x.quantity - 0.5) } : x))}><Minus size={15} /></button><button type="button" className="icon-button" aria-label={item.product.name + 'を0.5増やす'} onClick={() => setCart(c => c.map((x, j) => j === index ? { ...x, quantity: (Number.isFinite(x.quantity) ? x.quantity : 0) + 0.5 } : x))}><Plus size={15} /></button></div></div><small>{numberText(item.quantity)} ×基準量 / {numberText(item.product.nutrition.calories == null || !Number.isFinite(item.quantity) ? null : item.product.nutrition.calories * item.quantity)} kcal</small></div>; })}
       {!cart.length && <p className="empty">商品を選んで追加してください。</p>}
       <label>メモ<textarea value={note} maxLength={5000} onChange={e => setNote(e.target.value)} placeholder="食事のメモ（任意）" /></label>
       <NutritionGrid value={total} />
@@ -79,7 +90,12 @@ export function Food({ products, meals, goal, favorites, run, busy, initial, dra
       <button className="primary wide" disabled={busy || !cart.length || !iso}><Check size={17} />{initial?.edit ? '変更を保存' : 'この食事を保存'}</button>
       <div className="draft-actions"><button type="button" disabled={!cart.length} onClick={() => run(async () => { cart.forEach(i => quantityFromAmount(i.product, i.quantity, 'portion')); await navigator.clipboard.writeText(JSON.stringify({ at: iso, day, kind, items: cart, total, note }, null, 2)); setCopied(true); }, '登録内容をコピーしました')}>{copied ? 'コピー済み' : '登録内容をコピー'}</button>{!initial?.edit && <button type="button" disabled={!cart.length} onClick={() => { setCart([]); setUnits({}); setNote(''); }}>カートを空にする</button>}<button type="button" onClick={onCancel}>{initial?.edit ? 'キャンセル' : '一覧に戻る（カートは保持）'}</button></div>
     </form>
-  </div>;
+  </div>
+  {step === 'pick' && <div className={'mobile-cart-bar' + (flash ? ' flash' : '')} aria-live="polite">
+    <div><strong>{flash ? `「${flash}」を追加` : count ? `カート ${count}品` : 'カートは空です'}</strong><small>{count ? `合計 ${kcal} kcal` : '商品の＋で追加します'}</small></div>
+    <button type="button" className="primary" disabled={!count} onClick={() => setStep('cart')}>カートを見る</button>
+  </div>}
+  </>;
 }
 
 function ManualProduct({ products, run, busy, onAdded }: { products: Product[]; run: Run; busy: boolean; onAdded: (p: Product) => void }) {

@@ -22,3 +22,49 @@ label.check{display:flex;align-items:center;gap:8px;margin:4px 0 8px}label.check
 .product-icon{overflow:hidden}.product-icon img{width:100%;height:100%;object-fit:cover;display:block;background:#fff}
 .product-icon.small{width:34px;height:34px;border-radius:7px}
 .item-title{display:flex;align-items:center;gap:10px;min-width:0}
+
+/* スマホ向け画面（v0.3）。PCの表示は変えない */
+.mobile-steps,.mobile-cart-bar{display:none}
+@keyframes cart-bump{50%{transform:scale(1.03)}}
+@media(max-width:760px){
+ html{-webkit-text-size-adjust:100%}
+ main{padding:calc(14px + env(safe-area-inset-top)) 14px calc(96px + env(safe-area-inset-bottom))}
+ header>.eyebrow,.header-row p{display:none}
+ h1{font-size:22px;margin:4px 0}
+ .header-row{align-items:center}
+ /* iPhoneは16px未満の入力欄をタップすると画面が拡大されるため、入力欄は16pxにする */
+ input,select,textarea{font-size:16px}
+ .date-select{display:flex;gap:6px;font-size:11px;padding:2px 8px;margin:0}
+ .date-select input{font-size:16px;max-width:none;width:150px;min-height:40px}
+ .eyebrow,.badge{font-size:10px}
+ .boundary{font-size:11px}.boundary span{font-size:10px;padding:3px 8px}
+ .muted{font-size:12px}
+ .product small,.portion-row small{font-size:11px}
+ .gentle-note p,footer{font-size:11px}
+ .meal-info strong{font-size:13px}
+ nav button{font-size:11px}
+ .card{padding:18px 14px;border-radius:14px}
+ .product{gap:10px;padding:12px 0}
+ .add-button{width:44px;min-height:44px}
+ .pills.food-tabs{flex-wrap:nowrap;overflow-x:auto;margin:0 -14px 16px;padding:0 14px;scrollbar-width:none}
+ .pills.food-tabs button{flex-shrink:0}
+ .draft-actions{display:grid;grid-template-columns:1fr;gap:8px}
+ .food-layout .card>.form-grid{grid-template-columns:1fr 1fr;gap:8px}.food-layout .card>.form-grid label{margin:8px 0}
+ .section-kicker span,.energy>small{font-size:11px}
+ .portion-input{display:grid;grid-template-columns:1fr 1.3fr auto;gap:8px;align-items:end}.portion-input label{margin:8px 0 0}.stepper{padding-bottom:2px}
+ .nutrition-grid dt,.nutrition-grid dd small{font-size:11px}
+ .meal-info small,.meal-info p,.meal-items li small,.boundary span,.product p,.product .badge,.product-row small,.product-row p,.macros span,.macros small,.ring small,.section-kicker,.bar-col small,.bar-col span,.weight-trend small{font-size:11px}
+ /* 食事登録：「商品をえらぶ」と「カート」を切り替える */
+ .mobile-steps{display:flex;position:sticky;top:0;z-index:5;gap:6px;margin:0 -14px 12px;padding:8px 14px;background:#f5f5efef;backdrop-filter:blur(10px)}
+ .mobile-steps button{flex:1;min-height:44px;font-size:14px}
+ .mobile-steps .selected{background:#294737;color:#fff;border-color:#294737}
+ .mobile-steps .count{background:#e3eedc;color:#294737;border-radius:99px;padding:0 8px;font-size:12px;line-height:20px}
+ .food-layout[data-step=pick]>.basket,.food-layout[data-step=cart]>div:first-child{display:none}
+ .mobile-cart-bar{display:flex;position:fixed;left:8px;right:8px;bottom:calc(72px + env(safe-area-inset-bottom));z-index:9;align-items:center;justify-content:space-between;gap:10px;padding:10px 10px 10px 16px;background:#213b34;color:#fff;border-radius:14px;box-shadow:0 6px 20px #0003}
+ .mobile-cart-bar>div{min-width:0}
+ .mobile-cart-bar strong{display:block;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ .mobile-cart-bar small{font-size:12px;opacity:.8}
+ .mobile-cart-bar .primary{background:#e3eedc;color:#213b34;border-color:#e3eedc;flex-shrink:0;font-size:13px}
+ .mobile-cart-bar.flash{animation:cart-bump .3s}
+ main:has(.mobile-cart-bar){padding-bottom:calc(160px + env(safe-area-inset-bottom))}
+}
